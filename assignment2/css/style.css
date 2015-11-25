@@ -8,10 +8,18 @@ body {
 img {
     width: 200px;
 }
-.hero_profile #hero_pic {
+
+.hero_profile #hero_pic1 {
     height: 380px;
-    padding-left: 50px;
+    padding-left: 150px;
+    width: 280px;
+
+}
+.hero_profile #hero_pic2 {
+    height: 380px;
+    padding-left: 75px;
     width: 380px;
+    align-content: center;
 }
 .header_achievement h2 {
     font-weight: bolder;
@@ -66,7 +74,7 @@ section {
 .navigation ul li ul.dropdown {
     min-width: 125px;
     /* Set width of the dropdown */
-    
+
     background: #f2f2f2;
     display: none;
     position: absolute;
